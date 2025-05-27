@@ -1,0 +1,6 @@
+hf (pretrained=meta-llama/Llama-3.1-8B), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|    Tasks     |Version|     Filter      |n-shot|  Metric   |   |Value|   |Stderr|
+|--------------|------:|-----------------|-----:|-----------|---|----:|---|-----:|
+|mgsm_direct_eu|      1|flexible-extract |     0|exact_match|↑  |0.064|±  |0.0155|
+|              |       |remove_whitespace|     0|exact_match|↑  |0.004|±  |0.0040|
+

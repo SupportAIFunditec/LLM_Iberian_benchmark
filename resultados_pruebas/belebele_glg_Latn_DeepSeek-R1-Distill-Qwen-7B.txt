@@ -1,0 +1,6 @@
+hf (pretrained=deepseek-ai/DeepSeek-R1-Distill-Qwen-7B), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 8
+|      Tasks      |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|-----------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_glg_Latn|      1|none  |     0|acc     |↑  |0.5378|±  |0.0166|
+|                 |       |none  |     0|acc_norm|↑  |0.5378|±  |0.0166|
+

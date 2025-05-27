@@ -1,0 +1,6 @@
+hf (pretrained=mistralai/Mistral-Small-24B-Instruct-2501,load_in_4bit=True), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|    Tasks     |Version|     Filter      |n-shot|  Metric   |   |Value|   |Stderr|
+|--------------|------:|-----------------|-----:|-----------|---|----:|---|-----:|
+|mgsm_direct_es|      3|flexible-extract |     0|exact_match|↑  | 0.62|±  |0.0308|
+|              |       |remove_whitespace|     0|exact_match|↑  | 0.00|±  |0.0000|
+

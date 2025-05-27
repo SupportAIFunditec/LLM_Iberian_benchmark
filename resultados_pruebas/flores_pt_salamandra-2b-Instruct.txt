@@ -1,0 +1,105 @@
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+hf (pretrained=BSC-LT/salamandra-2b-Instruct), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|     Tasks     |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|---------------|------:|------|-----:|------|---|------:|---|-----:|
+|flores_pt      |    1.0|none  |      |bleu  |↑  |15.6147|±  |0.1144|
+| - flores_ca-pt|    1.0|none  |     0|bleu  |↑  |10.7237|±  |0.5260|
+|               |       |none  |     0|chrf  |↑  |35.8292|±  |0.6186|
+|               |       |none  |     0|ter   |↓  |86.4990|±  |0.7526|
+| - flores_de-pt|    1.0|none  |     0|bleu  |↑  |19.0367|±  |0.5207|
+|               |       |none  |     0|chrf  |↑  |49.1521|±  |0.4013|
+|               |       |none  |     0|ter   |↓  |72.1379|±  |0.7224|
+| - flores_en-pt|    1.0|none  |     0|bleu  |↑  |28.3447|±  |0.5296|
+|               |       |none  |     0|chrf  |↑  |57.2291|±  |0.3865|
+|               |       |none  |     0|ter   |↓  |59.5531|±  |0.6155|
+| - flores_es-pt|    1.0|none  |     0|bleu  |↑  | 9.7295|±  |0.3975|
+|               |       |none  |     0|chrf  |↑  |35.5636|±  |0.4656|
+|               |       |none  |     0|ter   |↓  |90.0082|±  |0.6960|
+| - flores_eu-pt|    0.1|none  |     0|bleu  |↑  | 8.8060|±  |0.3981|
+|               |       |none  |     0|chrf  |↑  |35.4771|±  |0.4511|
+|               |       |none  |     0|ter   |↓  |92.3592|±  |0.9309|
+| - flores_fr-pt|    1.0|none  |     0|bleu  |↑  |23.2979|±  |0.5191|
+|               |       |none  |     0|chrf  |↑  |52.5485|±  |0.4254|
+|               |       |none  |     0|ter   |↓  |65.9536|±  |0.6707|
+| - flores_gl-pt|    1.0|none  |     0|bleu  |↑  | 7.0439|±  |0.3654|
+|               |       |none  |     0|chrf  |↑  |31.9797|±  |0.4712|
+|               |       |none  |     0|ter   |↓  |93.2625|±  |0.6660|
+| - flores_it-pt|    1.0|none  |     0|bleu  |↑  |10.6626|±  |0.4440|
+|               |       |none  |     0|chrf  |↑  |37.6283|±  |0.4629|
+|               |       |none  |     0|ter   |↓  |88.1974|±  |0.6780|
+| - flores_pt-ca|    1.0|none  |     0|bleu  |↑  |21.6827|±  |0.4406|
+|               |       |none  |     0|chrf  |↑  |51.2967|±  |0.3539|
+|               |       |none  |     0|ter   |↓  |67.1499|±  |0.5694|
+| - flores_pt-de|    1.0|none  |     0|bleu  |↑  |14.1628|±  |0.4671|
+|               |       |none  |     0|chrf  |↑  |44.6625|±  |0.5098|
+|               |       |none  |     0|ter   |↓  |80.3366|±  |0.6791|
+| - flores_pt-en|    1.0|none  |     0|bleu  |↑  |33.5460|±  |0.5795|
+|               |       |none  |     0|chrf  |↑  |62.0658|±  |0.3902|
+|               |       |none  |     0|ter   |↓  |52.9080|±  |0.8244|
+| - flores_pt-es|    1.0|none  |     0|bleu  |↑  |16.5136|±  |0.3968|
+|               |       |none  |     0|chrf  |↑  |46.4243|±  |0.3276|
+|               |       |none  |     0|ter   |↓  |73.2526|±  |0.5726|
+| - flores_pt-eu|    0.1|none  |     0|bleu  |↑  | 4.5852|±  |0.2762|
+|               |       |none  |     0|chrf  |↑  |40.2964|±  |0.3098|
+|               |       |none  |     0|ter   |↓  |98.5878|±  |0.9944|
+| - flores_pt-fr|    1.0|none  |     0|bleu  |↑  |15.7097|±  |0.5014|
+|               |       |none  |     0|chrf  |↑  |43.0980|±  |0.4983|
+|               |       |none  |     0|ter   |↓  |78.2791|±  |0.9131|
+| - flores_pt-gl|    1.0|none  |     0|bleu  |↑  |14.0186|±  |0.3833|
+|               |       |none  |     0|chrf  |↑  |45.0798|±  |0.2844|
+|               |       |none  |     0|ter   |↓  |78.7521|±  |0.6477|
+| - flores_pt-it|    1.0|none  |     0|bleu  |↑  |11.9712|±  |0.4774|
+|               |       |none  |     0|chrf  |↑  |43.1241|±  |0.4437|
+|               |       |none  |     0|ter   |↓  |97.4277|±  |3.2010|
+
+| Groups  |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|---------|------:|------|------|------|---|------:|---|-----:|
+|flores_pt|      1|none  |      |bleu  |↑  |15.6147|±  |0.1144|
+

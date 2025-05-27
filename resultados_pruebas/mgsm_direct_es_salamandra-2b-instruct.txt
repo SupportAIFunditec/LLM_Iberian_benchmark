@@ -1,0 +1,6 @@
+hf (pretrained=BSC-LT/salamandra-2b-instruct), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|    Tasks     |Version|     Filter      |n-shot|  Metric   |   |Value|   |Stderr|
+|--------------|------:|-----------------|-----:|-----------|---|----:|---|-----:|
+|mgsm_direct_es|      3|flexible-extract |     0|exact_match|↑  |0.036|±  |0.0118|
+|              |       |remove_whitespace|     0|exact_match|↑  |0.000|±  |0.0000|
+

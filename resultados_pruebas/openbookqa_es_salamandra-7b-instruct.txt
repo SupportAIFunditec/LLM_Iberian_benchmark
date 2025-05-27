@@ -1,0 +1,6 @@
+hf (pretrained=BSC-LT/salamandra-7b-instruct), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|    Tasks    |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
+|-------------|------:|------|-----:|--------|---|----:|---|-----:|
+|openbookqa_es|      1|none  |     0|acc     |↑  |0.392|±  |0.0219|
+|             |       |none  |     0|acc_norm|↑  |0.472|±  |0.0223|
+

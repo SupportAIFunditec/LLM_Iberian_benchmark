@@ -1,0 +1,6 @@
+hf (pretrained=mistralai/Mistral-Small-24B-Instruct-2501,load_in_4bit=True), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|      Tasks      |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|-----------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_eus_Latn|      0|none  |     0|acc     |↑  |0.7789|±  |0.0138|
+|                 |       |none  |     0|acc_norm|↑  |0.7789|±  |0.0138|
+

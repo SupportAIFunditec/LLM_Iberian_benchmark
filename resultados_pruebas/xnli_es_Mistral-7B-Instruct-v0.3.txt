@@ -1,0 +1,5 @@
+hf (pretrained=mistralai/Mistral-7B-Instruct-v0.3), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+| Tasks |Version|Filter|n-shot|Metric|   |Value|   |Stderr|
+|-------|------:|------|-----:|------|---|----:|---|-----:|
+|xnli_es|      1|none  |     0|acc   |↑  |0.439|±  |0.0157|
+

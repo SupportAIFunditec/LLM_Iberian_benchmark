@@ -1,0 +1,5 @@
+hf (pretrained=BSC-LT/salamandraTA-2B), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+| Tasks |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|-------|------:|------|-----:|------|---|-----:|---|-----:|
+|wnli_ca|      1|none  |     0|acc   |↑  |0.4366|±  |0.0593|
+

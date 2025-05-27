@@ -1,0 +1,6 @@
+hf (pretrained=Qwen/Qwen2.5-7B), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 8
+|      Tasks      |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|-----------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_eus_Latn|      0|none  |     0|acc     |↑  |0.4622|±  |0.0166|
+|                 |       |none  |     0|acc_norm|↑  |0.4622|±  |0.0166|
+

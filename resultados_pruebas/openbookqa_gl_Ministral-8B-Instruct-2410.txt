@@ -1,0 +1,6 @@
+hf (pretrained=mistralai/Ministral-8B-Instruct-2410), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|    Tasks    |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
+|-------------|------:|------|-----:|--------|---|----:|---|-----:|
+|openbookqa_gl|      1|none  |     0|acc     |↑  |0.308|±  |0.0207|
+|             |       |none  |     0|acc_norm|↑  |0.418|±  |0.0221|
+

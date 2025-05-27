@@ -1,0 +1,105 @@
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+bootstrapping for stddev: bleu
+bootstrapping for stddev: ter
+bootstrapping for stddev: chrf
+hf (pretrained=mistralai/Mistral-7B-Instruct-v0.3), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|     Tasks     |Version|Filter|n-shot|Metric|   | Value  |   |Stderr|
+|---------------|------:|------|-----:|------|---|-------:|---|-----:|
+|flores_eu      |    1.0|none  |      |bleu  |↑  |  2.4158|±  |0.0480|
+| - flores_ca-eu|    0.1|none  |     0|bleu  |↑  |  0.8549|±  |0.1091|
+|               |       |none  |     0|chrf  |↑  | 20.9893|±  |0.2879|
+|               |       |none  |     0|ter   |↓  |181.0692|±  |5.4191|
+| - flores_de-eu|    0.1|none  |     0|bleu  |↑  |  0.7716|±  |0.0952|
+|               |       |none  |     0|chrf  |↑  | 19.9686|±  |0.3011|
+|               |       |none  |     0|ter   |↓  |196.7124|±  |5.3786|
+| - flores_en-eu|    0.1|none  |     0|bleu  |↑  |  1.0410|±  |0.1133|
+|               |       |none  |     0|chrf  |↑  | 21.2255|±  |0.2786|
+|               |       |none  |     0|ter   |↓  |161.8067|±  |4.0314|
+| - flores_es-eu|    1.0|none  |     0|bleu  |↑  |  0.8611|±  |0.0925|
+|               |       |none  |     0|chrf  |↑  | 21.8702|±  |0.2802|
+|               |       |none  |     0|ter   |↓  |168.2447|±  |4.1775|
+| - flores_eu-ca|    0.1|none  |     0|bleu  |↑  |  4.3177|±  |0.2745|
+|               |       |none  |     0|chrf  |↑  | 25.6369|±  |0.3288|
+|               |       |none  |     0|ter   |↓  |105.1982|±  |2.2947|
+| - flores_eu-de|    0.1|none  |     0|bleu  |↑  |  3.2840|±  |0.2237|
+|               |       |none  |     0|chrf  |↑  | 26.7654|±  |0.3073|
+|               |       |none  |     0|ter   |↓  |100.3906|±  |1.3580|
+| - flores_eu-en|    0.1|none  |     0|bleu  |↑  |  5.1431|±  |0.3046|
+|               |       |none  |     0|chrf  |↑  | 29.7448|±  |0.3491|
+|               |       |none  |     0|ter   |↓  |100.4620|±  |1.3107|
+| - flores_eu-es|    1.0|none  |     0|bleu  |↑  |  4.6834|±  |0.2450|
+|               |       |none  |     0|chrf  |↑  | 26.8426|±  |0.2908|
+|               |       |none  |     0|ter   |↓  | 96.7148|±  |1.2194|
+| - flores_eu-fr|    0.1|none  |     0|bleu  |↑  |  4.6192|±  |0.2653|
+|               |       |none  |     0|chrf  |↑  | 27.3787|±  |0.3350|
+|               |       |none  |     0|ter   |↓  |100.3279|±  |1.8818|
+| - flores_eu-gl|    0.1|none  |     0|bleu  |↑  |  2.2392|±  |0.1882|
+|               |       |none  |     0|chrf  |↑  | 23.0291|±  |0.3074|
+|               |       |none  |     0|ter   |↓  |113.8141|±  |2.7804|
+| - flores_eu-it|    0.1|none  |     0|bleu  |↑  |  3.6329|±  |0.2517|
+|               |       |none  |     0|chrf  |↑  | 25.1594|±  |0.3058|
+|               |       |none  |     0|ter   |↓  |104.0499|±  |2.2550|
+| - flores_eu-pt|    0.1|none  |     0|bleu  |↑  |  4.1184|±  |0.2346|
+|               |       |none  |     0|chrf  |↑  | 26.1317|±  |0.3250|
+|               |       |none  |     0|ter   |↓  | 99.2091|±  |1.2186|
+| - flores_fr-eu|    0.1|none  |     0|bleu  |↑  |  0.7438|±  |0.1064|
+|               |       |none  |     0|chrf  |↑  | 20.3758|±  |0.2919|
+|               |       |none  |     0|ter   |↓  |193.7336|±  |5.2113|
+| - flores_gl-eu|    0.1|none  |     0|bleu  |↑  |  0.7699|±  |0.0988|
+|               |       |none  |     0|chrf  |↑  | 18.6843|±  |0.3145|
+|               |       |none  |     0|ter   |↓  |190.8176|±  |4.8568|
+| - flores_it-eu|    0.1|none  |     0|bleu  |↑  |  0.6406|±  |0.0756|
+|               |       |none  |     0|chrf  |↑  | 19.0201|±  |0.3036|
+|               |       |none  |     0|ter   |↓  |205.9577|±  |5.5740|
+| - flores_pt-eu|    0.1|none  |     0|bleu  |↑  |  0.9320|±  |0.1337|
+|               |       |none  |     0|chrf  |↑  | 20.1189|±  |0.2960|
+|               |       |none  |     0|ter   |↓  |176.3522|±  |4.6811|
+
+| Groups  |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------|------:|------|------|------|---|-----:|---|-----:|
+|flores_eu|      1|none  |      |bleu  |↑  |2.4158|±  | 0.048|
+

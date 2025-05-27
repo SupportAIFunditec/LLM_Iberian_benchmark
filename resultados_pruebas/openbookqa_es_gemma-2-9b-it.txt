@@ -1,0 +1,6 @@
+hf (pretrained=google/gemma-2-9b-it), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+|    Tasks    |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
+|-------------|------:|------|-----:|--------|---|----:|---|-----:|
+|openbookqa_es|      1|none  |     0|acc     |↑  |0.356|±  |0.0214|
+|             |       |none  |     0|acc_norm|↑  |0.444|±  |0.0222|
+

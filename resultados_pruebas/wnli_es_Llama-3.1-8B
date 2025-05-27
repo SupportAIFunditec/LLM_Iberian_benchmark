@@ -1,0 +1,4 @@
+hf (pretrained=meta-llama/Llama-3.1-8B), gen_kwargs: (None), limit: 1000.0, num_fewshot: None, batch_size: 1
+| Tasks |Version|Filter|n-shot|Metric|   |Value|   |Stderr|
+|-------|------:|------|-----:|------|---|----:|---|-----:|
+|wnli_es|      1|none  |     0|acc   |↑  |0.493|±  |0.0598|
